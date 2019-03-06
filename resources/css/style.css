@@ -1,0 +1,43 @@
+/* Universal Rules */
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: helvetica;
+    background-color: black;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 100%;
+    border: 1px solid white;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    border: 1px solid white;
+    align-items: center; 
+}
+
+.header.logo {
+    display: flex;
+}
