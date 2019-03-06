@@ -6,20 +6,9 @@ html {
 
 body {
     font-family: helvetica;
-    background-color: black;
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
+    color: white;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 960px;
-    height: 100%;
-    border: 1px solid white;
-}
 
 /* Header */
 
@@ -34,10 +23,55 @@ header {
 
 .header {
     display: flex;
-    border: 1px solid white;
     align-items: center; 
+    max-width: 960px;
+    width: 100%;  
+    margin: 0.66rem auto; 
 }
 
-.header.logo {
+.header .logo {
+    height: 1.5rem; 
+    width: auto;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+
+.logo img {
+    height: 1.5rem;
+    width: auto;
+}
+
+/* Hero Image */
+
+.hero-banner-container {
+    height: 25rem;
+    width: 100%;
+    background-image: url('../images/moto.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.hero-banner-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
+    align-items: flex-start;
+}
+
+.hero-banner-content {
+    padding: 2rem;
+    padding-left: 3rem;
+    width: 20rem;
+    background-color: black;
+    margin-top: 9rem;
+}
+
+.hero-banner-content .new-arrival {
+    font-size: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.hero-banner-content .bikes-and-motorcycles {
+    font-size: 2rem;
 }
