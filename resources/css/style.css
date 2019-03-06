@@ -99,3 +99,35 @@ header {
     text-decoration: none;
     font-size: 1rem;
 }
+
+/* Products */
+
+.product-overall-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.product-box {
+border: 4px solid black;
+}
+
+.product-box img {
+    padding: 2rem 0;
+    height: 9rem;
+}
+
+.product-box p {
+    background-color: black;
+    text-align: center;
+    padding: 0.5rem 0;
+}
