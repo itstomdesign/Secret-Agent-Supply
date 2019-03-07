@@ -90,8 +90,6 @@ header {
 .navigation .menu-button {
     display: none;
     justify-content: space-between;
-    padding: 0.75rem 0;
-    width: 960px;
 }
 
 .navigation {
@@ -293,12 +291,12 @@ footer {
     justify-content: center;
     font-size: 1rem;
     background-color: firebrick;
-    width: 100%;
+    width: auto;
 }
 
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.75rem 0;
     width: 960px;
 }
