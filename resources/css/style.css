@@ -89,6 +89,9 @@ header {
 
 .navigation .menu-button {
     display: none;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    width: 960px;
 }
 
 .navigation {
