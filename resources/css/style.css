@@ -87,6 +87,10 @@ header {
     width: 100%;
 }
 
+.navigation.menu-button {
+    display: none;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -216,3 +220,72 @@ footer {
 .footer-copy {
     width: 960px;
 }
+
+
+/* Media Queries*/
+
+@media only screen and (max-width: 1024px) {
+
+
+    .product-overall-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product-container {
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: row;
+        width: 960px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .product-box {
+    border: 4px solid black;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .product-box.glasses {
+        display: none;
+    }
+
+    .product-box img {
+        padding: 2rem 0;
+        height: 9rem;
+        width: 50%;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+    
+    .product-box p {
+        background-color: black;
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    .navigation.menu-button {
+        
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75rem 0;
+        width: 960px;
+    }
+    
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        display: none;
+    }
+    
+
+
+
+    }
